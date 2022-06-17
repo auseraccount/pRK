@@ -1,3 +1,7 @@
+%% Readers can change the values of \mcode{RK_flag} to verify the pRK method 
+%  based on a given Butcher tableau. It should be noted that the order conditions 
+%  of underlying RK Butcher tableau should be substituted to the Tayor expansions 
+% to finish the verification of pRK method when based on an abstract Butcher tableau.
 RK_flag = 4; % Verify order conditions of RK(4, 4)
 switch RK_flag
     case 1  % RK(1, 1)
